@@ -6,10 +6,12 @@ import { autoNewTabExternalLinks } from './src/autoNewTabExternalLinks';
 
 import partytown from "@astrojs/partytown";
 
+import react from '@astrojs/react';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://devolio.devaradise.com',
-  integrations: [mdx(), sitemap(), tailwind(), partytown()],
+  integrations: [mdx(), sitemap(), tailwind(), partytown(), react()],
   markdown: {
     extendDefaultPlugins: true,
     rehypePlugins: [[autoNewTabExternalLinks, {

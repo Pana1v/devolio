@@ -1,218 +1,55 @@
 ---
-title: 'Markdown Style Guide'
-seoTitle: 'A Definitive Guide to Markdown Style'
-slug: 'markdown-style-guide'
-description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
-pubDate: '2024-08-18'
-updatedDate: '2024-08-19'
-tags: ["Markdown", "Guide"]
-coverImage: './blog-placeholder-4.jpg'
+title: 'Concluding My Tenure as Undergraduate Representative (AY 2024-2025)'
+seoTitle: 'Reflections as Undergraduate Representative, IIT Patna'
+slug: 'ug-rep-conclusion-iitp-2024-2025'
+description: 'A summary of achievements and gratitude as I conclude my tenure as Undergraduate Representative at Students’ Gymkhana, IIT Patna.'
+pubDate: '2025-05-18'
+updatedDate: '2025-05-19'
+tags: ["IIT Patna", "Student Council", "Reflection"]
+coverImage: './image.png'
 ---
 
-Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
+<!-- ![Panav Arpit Raaj with the ACC Team at IIT Patna](./image.png) -->
+
+Concluding my tenure as the Undergraduate Representative for the AY 2024-2025 at Students' Gymkhana, IIT Patna. I am immensely proud of what we, the Academic and Career Council (ACC UG), have achieved.
+
+A brief breakdown:
+
+1. **6 Month Internships Approved** in IIT Patna.
+2. **Roll out of Minor Degree Courses.**
+3. Troubleshooting various concerns with regards to curriculum and academic procedures.
+4. Solving a long-standing issue with regards to delayed results and consolidated transcripts, courtesy of fixes implemented through collaboration between Moodle and Academic Section, IIT Patna.
+5. Formalization and establishment of Research Community, conduction of Research Conclave.
+6. (TBA) Development of an entirely new site for IIT Patna, with massive help from the STC Dev Team.
+7. Organization of Farewell events (Yearbook '25) ranging from Sports to Cultural activities, with due credits to the Yearbook Design team, Sports Council, HoSCA and its coordinators.
+8. Enhancing student experience through:
+   - Securing Entire Central Lecture Hall for students during exams to overcome library constraints.
+   - Documentation of Academic Procedures through a comprehensive site and the "ACC Survival Guide"
+   - Assisting with Scholarships both in-house and through collaboration with NGOs.
+9. **Strengthening Student-Faculty Dialogue:**  
+   - Regular open forums and feedback sessions with students and faculty to address academic and campus life issues.
+   - Initiated monthly "Ask the ACC" sessions for transparent communication.
+10. **Academic Policy Reforms:**  
+    - Advocated for flexible credit transfer and course withdrawal policies.
+    - Streamlined the process for academic grievances and redressal.
+11. **Support for Research & Innovation:**  
+    - Facilitated workshops on research methodology and grant writing.
+    - Launched a mentorship program pairing UG students with research scholars and faculty.
+12. **Mental Health & Wellbeing Initiatives:**  
+    - Collaborated with the Counselling Cell to organize stress management and mental health awareness events.
+    - Helped set up a peer support network for students.
+13. **Digital Transformation:**  
+    - Pushed for digitization of academic records and online application systems for scholarships and internships.
+    - Oversaw the launch of the new ACC portal for centralized student resources.
+14. **Inclusivity & Outreach:**  
+    - Supported initiatives for first-generation college students and students from underrepresented backgrounds.
+    - Organized orientation programs and Q&A sessions for incoming batches.
+
+These milestones were truly a team effort. A massive thank you to the VP Gymkhana Shubham Satyam; fellow Gymkhana Core Members Kirtan Jain, Ankit Kumar, Shivam Kumar Dubey, Suryansh Bansal, Soureesh T V S S and all the passionate Members of the Academic and Career Council (ACC) – Rishabh Raunak, Aditya Yadav, Ruchi Chand Thakur, and Hemanth Kumar Katariya, the wider Gymkhana family and Deans, Faculties and Staff who assisted me throughout these endeavours.
+
+I wish all the best to the upcoming UGR Yash Raj to continue the momentum and all Juniors who I hope will take whatever amount of effort is required to leave this #IIT in a better place than we found it.
+
+---
+
+*Thank you, IIT Patna, for the opportunity and trust. The journey has been transformative, and I look forward to seeing the institute and its students reach even greater heights!*
 
-## Headings
-
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
-
-# H1
-
-## H2
-
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-## Paragraph
-
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
-
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
-
-## Images
-
-### Syntax
-
-```markdown
-![Alt text](./full/or/relative/path/of/image)
-```
-
-### Output
-
-![blog placeholder](/blog-placeholder-about.jpg)
-
-## Blockquotes
-
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
-
-### Blockquote without attribution
-
-#### Syntax
-
-```markdown
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use _Markdown syntax_ within a blockquote.
-```
-
-#### Output
-
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use _Markdown syntax_ within a blockquote.
-
-### Blockquote with attribution
-
-#### Syntax
-
-```markdown
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
-```
-
-#### Output
-
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
-
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
-
-## Tables
-
-### Syntax
-
-```markdown
-| Italics   | Bold     | Code   |
-| --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
-```
-
-### Output
-
-| Italics   | Bold     | Code   |
-| --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
-
-## Code Blocks
-
-### Syntax
-
-we can use 3 backticks ``` in new line and write snippet and close with 3 backticks on new line and to highlight language specific syntax, write one word of language name after first 3 backticks, for eg. html, javascript, css, markdown, typescript, txt, bash
-
-````markdown
-```html
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Example HTML5 Document</title>
-  </head>
-  <body>
-    <p>Test</p>
-  </body>
-</html>
-```
-````
-
-### Output
-
-```html
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Example HTML5 Document</title>
-  </head>
-  <body>
-    <p>Test</p>
-  </body>
-</html>
-```
-
-## List Types
-
-### Ordered List
-
-#### Syntax
-
-```markdown
-1. First item
-2. Second item
-3. Third item
-```
-
-#### Output
-
-1. First item
-2. Second item
-3. Third item
-
-### Unordered List
-
-#### Syntax
-
-```markdown
-- List item
-- Another item
-- And another item
-```
-
-#### Output
-
-- List item
-- Another item
-- And another item
-
-### Nested list
-
-#### Syntax
-
-```markdown
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
-```
-
-#### Output
-
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-### Syntax
-
-```markdown
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
-```
-
-### Output
-
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
