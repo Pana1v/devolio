@@ -19,6 +19,13 @@ export const projects: Project[] = [
     description: 'A project focused on technology innovations for the Inter IIT Tech event.'
   },
   {
+    repo: 'Pana1v/Inter-IIT-Tech-12.0',
+    name: 'Institute Site Prototype for IIT Patna',
+    demoLink: 'https://beta.iitp.ac.in',
+    tags: ['Web Development'],
+    description: 'A prototype for the official IIT Patna website'
+  },
+  {
     repo: 'Pana1v/ros-amr-phoenix',
     name: 'ROS AMR Phoenix',
     demoLink: 'https://github.com/Pana1v/ros-amr-phoenix',

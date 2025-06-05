@@ -1,0 +1,31 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Ava from '@src/assets/img/ava.jpg';
+import Prose from '../components/Prose.astro';
+---
+
+<BaseLayout class="container mx-auto py-12">
+  <h1 class="text-3xl font-bold mb-6">Gallery & Videos</h1>
+  <p class="mb-8">A collection of my favorite moments, projects, and adventures in Gallery and videos. (You can update this section with your own content!)</p>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Example photo/video cards -->
+    <div class="bg-white dark:bg-zinc-800 rounded-lg shadow p-4">
+      <img src="/src/gallery/robocon.avif" alt="Robocon National Finals" class="rounded mb-2 w-full h-auto object-cover" />
+      <div class="text-sm text-zinc-600 dark:text-zinc-300">Robocon National Finals</div>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 rounded-lg shadow p-4">
+      <img src="/src/gallery/Panav.jpg" alt="Sample Photo" class="rounded mb-2 w-full h-auto object-cover" />
+      <div class="text-sm text-zinc-600 dark:text-zinc-300">Central Library Terrace @ IIT Patna</div>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 rounded-lg shadow p-4">
+      <img src="/src/gallery/Inter iit Gold.jpg" alt="Sample Photo" class="rounded mb-2 w-full h-auto object-cover" />
+      <div class="text-sm text-zinc-600 dark:text-zinc-300">Inter IIT Tech Gold</div>
+    </div>
+    <div class="bg-white dark:bg-zinc-800 rounded-lg shadow p-4">
+      <img src="/src/gallery/UGR.png" alt="Sample Photo" class="rounded mb-2 w-full h-auto object-cover" />
+      <div class="text-sm text-zinc-600 dark:text-zinc-300">Concluding as Undergraduate Representative, IIT Patna</div>
+    </div>
+    <!-- More Gallery items can be added here -->
+  </div>
+</BaseLayout>
